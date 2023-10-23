@@ -13,6 +13,8 @@ for i in new_num:
     if i == '=':
         break
 
+"""Finding roots"""
+
 i = 0
 while num1.count('-') != 0:
     if num1[i] == '-':
