@@ -21,7 +21,6 @@ while num1.count('-') != 0:
 print(num1)
 a, b, c = int(num1[0]), int(num1[1]), int(num1[2])
 
-"""Finding roots"""
 
 d = b ** 2 - 4 * a * c
 if d < 0:
