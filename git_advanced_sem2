@@ -1,3 +1,4 @@
+# Задание.
 # Найдите корни квадратного уравнения: ax^2 + bx + c = 0
 # a, b, c = int(input()), int(input()), int(input())
 
@@ -11,6 +12,8 @@ for i in new_num:
         num1.append(i)
     if i == '=':
         break
+
+"""Finding roots"""
 
 i = 0
 while num1.count('-') != 0:
